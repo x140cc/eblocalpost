@@ -70,10 +70,10 @@ func main() {
 					println(segmenttext[len(segmenttext)-2])
 					if strings.Contains(segmenttext[len(segmenttext)-2],"usweb"){
 
-						url = "https://api.eventbank.com/v1/sendgrid/callback/edm"
+						url = "https://example.com/v1/x/callback/edm"
 					}else {
 
-						url = "https://api.eventbank.cn/v1/sendgrid/callback/edm"
+						url = "https://example.com/v1/x/callback/edm"
 					}
 
 
